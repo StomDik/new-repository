@@ -14,6 +14,7 @@ elif y1 == y2:
     x_diff = x1 - x2
 else:
     x_diff = x1 - x2
+    y_diff = y1 - y2
 k = y_diff / x_diff
 b = y2 - k * x2
 
